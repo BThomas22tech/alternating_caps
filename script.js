@@ -1,4 +1,4 @@
-console.log("connected");
+
 var input = document.getElementById("test-input");
 var output = document.getElementById("test-output");
 
