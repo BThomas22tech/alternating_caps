@@ -20,4 +20,5 @@ function string(s) {
 
     output.innerText = newString;
     return newString;
+    
 }
