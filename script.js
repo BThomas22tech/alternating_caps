@@ -4,8 +4,7 @@ var output = document.getElementById("test-output");
 
 input.addEventListener("change", (event) => {
     string_sentence = event.target.value;
-    console.log(string(string_sentence));
-    output.innertext = string(string_sentence);
+    string(string_sentence);
 });
 
 function string(s) {
@@ -20,5 +19,4 @@ function string(s) {
 
     output.innerText = newString;
     return newString;
-    
 }
